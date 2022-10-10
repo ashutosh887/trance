@@ -1,15 +1,15 @@
-import prismaClient from "../../utils/prismaClient";
-import { validateRoute } from "../../utils/auth";
+import prisma from '../../lib/prisma'
+import { validateRoute } from '../../lib/auth'
 
 export default validateRoute(async (req, res, user) => {
-  const playlists = await prismaClient.playlist.findMany({
+  const playlists = await prisma.playlist.findMany({
     where: {
       userId: user.id,
     },
     orderBy: {
-      name: "asc",
+      name: 'asc',
     },
-  });
+  })
 
-  res.json(playlists);
-});
+  res.json(playlists)
+})

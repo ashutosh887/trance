@@ -1,12 +1,11 @@
-import type { NextPage } from "next";
-import { Image } from "@chakra-ui/react";
-import { Box, Text, Flex } from "@chakra-ui/layout";
-import { useMe } from "../utils/hooks";
-import GradientLayout from "../components/GradientLayout";
-import prismaClient from "../utils/prismaClient";
+import { Box, Text, Flex } from '@chakra-ui/layout'
+import { Image } from '@chakra-ui/react'
+import GradientLayout from '../components/gradientLayout'
+import { useMe } from '../lib/hooks'
+import prisma from '../lib/prisma'
 
-const Home: NextPage = ({ artists }) => {
-  const { user } = useMe();
+const Home = ({ artists }) => {
+  const { user } = useMe()
 
   return (
     <GradientLayout
@@ -15,7 +14,7 @@ const Home: NextPage = ({ artists }) => {
       subtitle="profile"
       title={`${user?.firstName} ${user?.lastName}`}
       description={`${user?.playlistsCount} public playlists`}
-      image="https://avatars.githubusercontent.com/u/71774735?v=4"
+      image="./main.png"
     >
       <Box color="white" paddingX="40px">
         <Box marginBottom="40px">
@@ -42,18 +41,15 @@ const Home: NextPage = ({ artists }) => {
         </Flex>
       </Box>
     </GradientLayout>
-  );
-};
+  )
+}
 
-// Server side function to get all the Artists
-// getStaticProps and getServerSideProps and getStaticPaths
-// Cost of Edge Functions or Lambda Functions
 export const getServerSideProps = async () => {
-  const artists = await prismaClient.artist.findMany({});
+  const artists = await prisma.artist.findMany({})
 
   return {
     props: { artists },
-  };
-};
+  }
+}
 
-export default Home;
+export default Home

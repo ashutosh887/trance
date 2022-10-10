@@ -1,12 +1,12 @@
-import { Box } from "@chakra-ui/layout";
-import PlayerBar from "./PlayerBar";
-import SideBar from "./SideBar";
+import { Box } from '@chakra-ui/layout'
+import Sidebar from './sidebar'
+import PlayerBar from './playerBar'
 
 const PlayerLayout = ({ children }) => {
   return (
     <Box width="100vw" height="100vh">
       <Box position="absolute" top="0" width="250px" left="0">
-        <SideBar />
+        <Sidebar />
       </Box>
       <Box marginLeft="250px" marginBottom="100px">
         <Box height="calc(100vh - 100px)">{children}</Box>
@@ -15,7 +15,7 @@ const PlayerLayout = ({ children }) => {
         <PlayerBar />
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default PlayerLayout;
+export default PlayerLayout
