@@ -5,7 +5,7 @@ import { AiOutlineClockCircle } from 'react-icons/ai'
 import { useStoreActions } from 'easy-peasy'
 import { formatDate, formatTime } from '../lib/formatters'
 
-const SongTable = ({ songs }) => {
+const SongsTable = ({ songs }) => {
   const playSongs = useStoreActions((store: any) => store.changeActiveSongs)
   const setActiveSong = useStoreActions((store: any) => store.changeActiveSong)
 
@@ -64,4 +64,4 @@ const SongTable = ({ songs }) => {
   )
 }
 
-export default SongTable
+export default SongsTable

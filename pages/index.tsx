@@ -1,6 +1,6 @@
 import { Box, Text, Flex } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/react'
-import GradientLayout from '../components/gradientLayout'
+import GradientLayout from '../components/GradientLayout'
 import { useMe } from '../lib/hooks'
 import prisma from '../lib/prisma'
 

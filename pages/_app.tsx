@@ -1,6 +1,6 @@
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import { StoreProvider } from 'easy-peasy'
-import PlayerLayout from '../components/playerLayout'
+import PlayerLayout from '../components/PlayerLayout'
 import 'reset-css'
 import { store } from '../lib/store'
 
