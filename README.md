@@ -3,9 +3,7 @@
 
 An online music streaming web application that aims at shuffling the music playlist in the best way possible.
 
-
-![Logo](https://res.cloudinary.com/cloudinary-projects/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1665404738/TrancePreview.jpg)
-
+![logo](https://user-images.githubusercontent.com/71774735/209637841-bf8c1871-4f44-40e2-96f1-dec9f7104c7b.png)
 
 
 ## Getting Started
@@ -37,6 +35,8 @@ To run this project, you will need to add the following environment variables to
 ## Demo
 
 Preview link: http://trance.vercel.app/
+
+![Trance Preview](https://user-images.githubusercontent.com/71774735/209637920-f2ff5711-f77a-40f2-b9ae-8b561e7d0741.png)
 
 
 ## 🔗 Socials
