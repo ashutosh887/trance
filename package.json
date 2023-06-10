@@ -1,5 +1,5 @@
 {
-  "name": "myapp",
+  "name": "trance",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -49,5 +49,9 @@
   },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.22.10"
   }
 }
