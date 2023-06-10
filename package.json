@@ -49,5 +49,9 @@
   },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
+  "engines": {
+    "npm": ">= 9.0.0",
+    "yarn": "please-use-npm"
   }
 }
