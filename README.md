@@ -3,10 +3,7 @@
 
 An online music streaming web application that aims at shuffling the music playlist in the best way possible.
 
-
-![Logo](https://res.cloudinary.com/cloudinary-projects/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1665404738/TrancePreview.jpg)
-
-
+![trance-v1](https://github.com/ashutosh887/trance/assets/71774735/bfbcfb84-1f8a-484e-9a5b-dc95439a5de3)
 
 ## Getting Started
 
