@@ -3,11 +3,11 @@
 
 An online music streaming web application that aims at shuffling the music playlist in the best way possible.
 
-<sup><sub>After a successful run and gaining a substantial userbase per month, I have decided to temporarily deprecate the current version of **trance**. I'm fully focused on developing an enhanced and improved version to meet the evolving needs of our users.
-</sub></sup>
-<sup><sub>
+<sub>After a successful run and gaining a substantial userbase per month, I have decided to temporarily deprecate the current version of **trance**. I'm fully focused on developing an enhanced and improved version to meet the evolving needs of our users.
+</sub>
+<sub>
 I appreciate the support and enthusiasm our users have shown for the current version of the app, and I believe that the upcoming release will surpass your musical desires. Stay tuned for updates as we progress towards the launch of v2 of **trance!**
-</sub></sup>
+</sub>
 
 
 ![trance-v1](https://github.com/ashutosh887/trance/assets/71774735/bfbcfb84-1f8a-484e-9a5b-dc95439a5de3)
